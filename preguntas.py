@@ -24,7 +24,7 @@ def pregunta_01():
     df = pd.read_csv(
         "amazon_cells_labelled.tsv",
         sep="\t",
-        header=0,
+        header=None,
         names=["msg", "lbl"],
     )
 
